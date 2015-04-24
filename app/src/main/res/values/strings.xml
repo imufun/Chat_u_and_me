@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="textFnd">Friend UserName</string>
+    <string name="empty"></string>
+    <string name="add">ADD</string>
+    <string name="Cencle">Cencle</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
 </resources>

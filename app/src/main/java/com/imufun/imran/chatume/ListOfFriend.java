@@ -1,17 +1,30 @@
 package com.imufun.imran.chatume;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
-public class MainActivity extends ActionBarActivity {
+public class ListOfFriend extends ActionBarActivity {
+
+
+    TextView textView1,textView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.list_of_friend);
+
+        textView1=(TextView)findViewById(R.id.usename);
+        textView1=(TextView)findViewById(R.id.Password);
+
+        Intent intent = new Intent(ListOfFriend.this, LoggIn.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
     }
 
 
