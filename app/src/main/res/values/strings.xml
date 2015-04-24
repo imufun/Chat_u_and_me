@@ -9,4 +9,9 @@
     <string name="Cencle">Cencle</string>
     <string name="message">Message</string>
     <string name="send">Send</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">email</string>
+    <string name="confirmemail">Confirm Email</string>
+    <string name="signup">Sign Up</string>
 </resources>
