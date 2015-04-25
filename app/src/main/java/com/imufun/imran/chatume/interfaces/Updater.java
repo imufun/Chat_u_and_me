@@ -1,6 +1,6 @@
 package com.imufun.imran.chatume.interfaces;
 
-import com.imufun.imran.chatume.typeof.InfoOFFriend;
+import com.imufun.imran.chatume.typeof.InfoOfFriend;
 import com.imufun.imran.chatume.typeof.InfoOfMessage;
 
 /**
@@ -8,7 +8,7 @@ import com.imufun.imran.chatume.typeof.InfoOfMessage;
  */
 public interface Updater {
 
-    public void updatedata(InfoOfMessage[] messages, InfoOFFriend[] friends, InfoOFFriend[] unApprovedFriends, String userkey);
+    public void updatedata(InfoOfMessage[] messages, InfoOfFriend[] friends, InfoOfFriend[] unApprovedFriends, String userkey);
 }
 
 
