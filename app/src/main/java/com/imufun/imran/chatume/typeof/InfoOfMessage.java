@@ -8,4 +8,5 @@ public class InfoOfMessage {
     public static final String User_id="user_id";
     public static final String SendT="sendT";
     public static final String Message_Text="message_text";
+
 }

@@ -1,4 +1,4 @@
-package com.imufun.imran.chatume.tooBox;
+package com.imufun.imran.chatume.toolBox;
 
 import com.imufun.imran.chatume.typeof.InfoOfFriend;
 
