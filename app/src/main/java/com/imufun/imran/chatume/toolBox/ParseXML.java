@@ -10,6 +10,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.Vector;
+import java.util.jar.Attributes;
 
 /**
  * Created by imran on 4/26/15.
@@ -75,4 +76,53 @@ public class ParseXML extends DefaultHandler {
 
 
     }
+
+
+    //Start Element
+    public void startElement(String uri,String LocalName,String name,Attributes attributes)throws SAXException{
+
+        if (LocalName=="friends"){
+            InfoOfFriend friend=new InfoOfFriend();
+
+            friend.userName=attributes.getValue(InfoOfFriend.userName);
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
